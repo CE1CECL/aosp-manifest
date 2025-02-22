@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="aosp" fetch="http://android.googlesource.com" review="http://android-review.googlesource.com"/>
-<superproject name="platform/superproject" remote="aosp"/>
+<superproject name="platform/superproject" remote="aosp" revision="refs/tags/android-11.0.0_r48"/>
 <contactinfo bugurl="go/repo-bug"/>
 <project revision="refs/tags/android-11.0.0_r48" remote="aosp" path="build/make" name="platform/build" groups="pdk">
 <copyfile src="core/root.mk" dest="Makefile"/>
