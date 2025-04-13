@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="http://android.googlesource.com" name="aosp" review="http://android-review.googlesource.com"/>
+<remote fetch="http://android.googlesource.com/a" name="aosp" review="http://android-review.googlesource.com"/>
 <remote fetch="http://gitlab.com/aosp-security" name="aosp-security"/>
 <remote fetch="http://gitlab.com/fdroid" name="fdroid"/>
 <remote fetch="http://gitlab.opengapps.org/opengapps" name="opengapps"/>

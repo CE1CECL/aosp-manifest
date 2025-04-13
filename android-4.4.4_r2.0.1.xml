@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="aosp" fetch="http://android.googlesource.com"/>
+<remote name="aosp" fetch="http://android.googlesource.com/a"/>
 <project revision="refs/tags/android-4.4.4_r2.0.1" remote="aosp" path="build" name="platform/build" groups="pdk">
 <copyfile src="core/root.mk" dest="Makefile"/>
 </project>

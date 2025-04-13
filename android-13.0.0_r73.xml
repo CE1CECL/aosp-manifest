@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="aosp" fetch="http://android.googlesource.com" review="http://android-review.googlesource.com/"/>
-<remote name="github" fetch="http://github.com/"/>
-<remote name="phh" fetch="http://github.com/phhusson/"/>
-<remote name="td" fetch="http://github.com/TrebleDroid/"/>
+<remote name="aosp" fetch="http://android.googlesource.com/a" review="http://android-review.googlesource.com"/>
+<remote name="github" fetch="http://github.com"/>
+<remote name="phh" fetch="http://github.com/phhusson"/>
+<remote name="td" fetch="http://github.com/TrebleDroid"/>
 <default remote="aosp" revision="refs/tags/android-13.0.0_r73"/>
 <project name="AndyCGYan/android_packages_apps_QcRilAm" path="packages/apps/QcRilAm" remote="github" revision="a207520873a5c6ce051a43e4a9db3d8ded84ff9b" upstream="master" dest-branch="master" groups="local::manifest"/>
 <project name="device/amlogic/yukawa" revision="abb7e979e99badb433565d6583769c4686ad187a" upstream="refs/tags/android-13.0.0_r73" dest-branch="refs/tags/android-13.0.0_r73" groups="device,yukawa,pdk"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="http://android.googlesource.com" name="aosp" review="http://android-review.googlesource.com/"/>
-<remote fetch="http://gitlab.com/fdroid/" name="fdroid"/>
-<remote fetch="http://gitlab.nezorfla.me/opengapps/" name="opengapps"/>
-<remote fetch="http://github.com/opengapps/" name="opengappsold"/>
-<remote fetch="http://github.com/phhusson/" name="phh"/>
+<remote fetch="http://android.googlesource.com/a" name="aosp" review="http://android-review.googlesource.com"/>
+<remote fetch="http://gitlab.com/fdroid" name="fdroid"/>
+<remote fetch="http://gitlab.nezorfla.me/opengapps" name="opengapps"/>
+<remote fetch="http://github.com/opengapps" name="opengappsold"/>
+<remote fetch="http://github.com/phhusson" name="phh"/>
 <default remote="aosp" revision="refs/tags/android-8.1.0_r65"/>
 <project clone-depth="1" name="all" path="vendor/opengapps/sources/all" remote="opengapps" revision="cfdf469d237983ff2a700a976a87bb1825853d16" upstream="master"/>
 <project name="aosp_build" path="vendor/opengapps/build" remote="opengappsold" revision="86370102e9d0338922593dd5fbb83a06cdd6415e" upstream="master"/>
