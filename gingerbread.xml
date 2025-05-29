@@ -81,7 +81,7 @@
 <project revision="gingerbread" remote="aosp" path="external/ppp" name="platform/external/ppp"/>
 <project revision="gingerbread" remote="aosp" path="external/proguard" name="platform/external/proguard"/>
 <project revision="gingerbread" remote="aosp" path="external/protobuf" name="platform/external/protobuf"/>
-<project revision="gingerbread" remote="aosp" path="external/qemu" name="platform/external/qemu" revision="tools_r7"/>
+<project revision="tools_r7" remote="aosp" path="external/qemu" name="platform/external/qemu"/>
 <project revision="gingerbread" remote="aosp" path="external/quake" name="platform/external/quake"/>
 <project revision="gingerbread" remote="aosp" path="external/replicaisland" name="platform/external/replicaisland"/>
 <project revision="gingerbread" remote="aosp" path="external/safe-iop" name="platform/external/safe-iop"/>
@@ -166,7 +166,7 @@
 <project revision="gingerbread" remote="aosp" path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke"/>
 <project revision="gingerbread" remote="aosp" path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization"/>
 <project revision="gingerbread" remote="aosp" path="prebuilt" name="platform/prebuilt"/>
-<project revision="gingerbread" remote="aosp" path="sdk" name="platform/sdk" revision="tools_r7"/>
+<project revision="tools_r7" remote="aosp" path="sdk" name="platform/sdk"/>
 <project revision="gingerbread" remote="aosp" path="system/bluetooth" name="platform/system/bluetooth"/>
 <project revision="gingerbread" remote="aosp" path="system/core" name="platform/system/core"/>
 <project revision="gingerbread" remote="aosp" path="system/extras" name="platform/system/extras"/>
