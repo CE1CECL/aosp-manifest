@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote fetch="http://android.googlesource.com/a" name="aosp" review="http://android-review.googlesource.com"/>
+<remote fetch="http://android.googlesource.com/a" name="aosp"/>
 <remote fetch="http://gitlab.com/fdroid" name="fdroid"/>
-<remote fetch="http://gitlab.nezorfla.me/opengapps" name="opengapps"/>
+<remote fetch="http://gitlab.opengapps.org/opengapps" name="opengapps"/>
 <remote fetch="http://github.com/opengapps" name="opengappsold"/>
 <remote fetch="http://github.com/phhusson" name="phh"/>
 <default remote="aosp" revision="refs/tags/android-8.1.0_r65"/>
